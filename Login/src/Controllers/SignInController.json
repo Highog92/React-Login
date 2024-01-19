@@ -1,0 +1,29 @@
+{
+    "form": [
+        {
+            "name": "name",
+            "required": "false",
+            "type": "text",
+            "placeholder": "Write your firstname",
+            "labelText": "Firstname"
+        },
+        {
+            "name": "password",
+            "required": "false",
+            "type": "text",
+            "placeholder": "Write your Password",
+            "labelText": "Password"
+        },
+        {
+            "name": "email",
+            "required": "false",
+            "type": "email",
+            "placeholder": "Write your mail",
+            "labelText": "Your email"
+        },
+        {
+            "value": "Log in",
+            "type": "submit"
+        }
+    ]
+}
