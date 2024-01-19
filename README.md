@@ -16,17 +16,18 @@ DIALECT=mysql
 DB=users
 ```
 
-2. Naviger til mappen: find-errors-backend og kør i en ny terminal:
+2. Naviger til mappen i terminalen med cd... ("cd ../" for at gå tilbage )   og kør i en ny terminal:
 
 ``` npm install ```
 
+Og for at få forbindelse til Mysql kør: 
+
 ``` node --watch server.js ```
 
-4. Åben endnu en terminal og naviger til mappen find-errors-frontend og kør:
+4. Åben endnu en terminal og naviger til frontend mappen og kør:
 
 ```npm install```
 
 ```npm run dev```
 
 Nu skulle projektet gerne køre med både frontend og backend løsningen. 
-Tid til at finde og fixe fejlene. Held og lykke. 
