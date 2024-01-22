@@ -13,7 +13,7 @@ export function Inputfield(props) {
             // Hvis label er true - så indsæt et label */}
             {props.labelText && <label>{props.labelText} </label>}
             {
-                props.type === "submit" ?
+                props.type === "submit" ? //Spørgsmåltegnet og Kolontegnet er lidt ligesom en switch. Login eller opret bruger
                     <input
                         className={inputStyle.inputField}
                         type={props.type}
@@ -28,7 +28,6 @@ export function Inputfield(props) {
                         required={props.required}>
                     </input>
             }
-
         </>
 
     )

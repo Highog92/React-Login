@@ -9,4 +9,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(199, 199, 199);
 }
