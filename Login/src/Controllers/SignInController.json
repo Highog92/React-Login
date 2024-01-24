@@ -1,11 +1,18 @@
 {
     "form": [
         {
-            "name": "name",
+            "name": "",
             "required": "false",
             "type": "text",
             "placeholder": "Write your firstname",
             "labelText": "Firstname"
+        },
+        {
+            "name": "",
+            "required": "false",
+            "type": "text",
+            "placeholder": "Write your lastname",
+            "labelText": "Lastname"
         },
         {
             "name": "password",
@@ -22,8 +29,14 @@
             "labelText": "Your email"
         },
         {
-            "value": "Log in",
+            "value": "Register",
             "type": "submit"
+        },
+        {   
+            "name": "Terms and conditions",
+            "required": "true",
+            "type": "checkbox",
+            "labelText": "Terms and conditions"
         }
     ]
 }

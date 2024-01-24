@@ -5,7 +5,7 @@ import { LoginForm } from './Components/Login/Login'
 import signUpController from './Controllers/SignInController.json'
 
 function App() {
-  
+
   const [message, setMessage] = useState()
   const signUp = (e) => {
 
@@ -51,6 +51,7 @@ function App() {
           )
         })}
 
+        <p>Already have an account? <a href="">Login here</a></p>
       </LoginForm>
 
     </>
