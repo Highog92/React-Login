@@ -1,0 +1,42 @@
+{
+    "form": [
+        {
+            "name": "",
+            "required": "false",
+            "type": "text",
+            "placeholder": "Write your firstname",
+            "labelText": "Firstname"
+        },
+        {
+            "name": "",
+            "required": "false",
+            "type": "text",
+            "placeholder": "Write your lastname",
+            "labelText": "Lastname"
+        },
+        {
+            "name": "password",
+            "required": "false",
+            "type": "text",
+            "placeholder": "Write your Password",
+            "labelText": "Password"
+        },
+        {
+            "name": "email",
+            "required": "false",
+            "type": "email",
+            "placeholder": "Write your mail",
+            "labelText": "Your email"
+        },
+        {
+            "value": "Register",
+            "type": "submit"
+        },
+        {   
+            "name": "Terms and conditions",
+            "required": "true",
+            "type": "checkbox",
+            "labelText": "Terms and conditions"
+        }
+    ]
+}

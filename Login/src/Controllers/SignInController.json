@@ -1,18 +1,11 @@
 {
     "form": [
         {
-            "name": "",
+            "name": "email",
             "required": "false",
-            "type": "text",
-            "placeholder": "Write your firstname",
-            "labelText": "Firstname"
-        },
-        {
-            "name": "",
-            "required": "false",
-            "type": "text",
-            "placeholder": "Write your lastname",
-            "labelText": "Lastname"
+            "type": "email",
+            "placeholder": "Write your mail",
+            "labelText": "Your email"
         },
         {
             "name": "password",
@@ -22,21 +15,8 @@
             "labelText": "Password"
         },
         {
-            "name": "email",
-            "required": "false",
-            "type": "email",
-            "placeholder": "Write your mail",
-            "labelText": "Your email"
-        },
-        {
-            "value": "Register",
+            "value": "Login",
             "type": "submit"
-        },
-        {   
-            "name": "Terms and conditions",
-            "required": "true",
-            "type": "checkbox",
-            "labelText": "Terms and conditions"
         }
     ]
 }
